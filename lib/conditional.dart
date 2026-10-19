@@ -107,7 +107,7 @@ void main() {
       break;
     case 2:
       {
-        print("Greek number :2");
+        print(" the Greek number :2");
       }
       break;
     default:
