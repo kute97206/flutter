@@ -249,11 +249,21 @@
 
 //+++++++++++++++++ while loop ++++++++++++=
 
+// void main() {
+//   var Greek = 4;
+//   int i = 2;
+//   while (i <= Greek) {
+//     print("Hello Greek");
+//     i++;
+//   }
+// }
+
+// +++++++++++++++ do while loop +++++++++++++++
 void main() {
-  var Greek = 4;
-  int i = 2;
-  while (i <= Greek) {
-    print("Hello Greek");
+  var hello = 4;
+  int i = 1;
+  do {
+    print("Hello World");
     i++;
-  }
+  } while (i <= hello);
 }
