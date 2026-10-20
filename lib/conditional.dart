@@ -180,14 +180,14 @@
 
 // ================= loop statement ===============================
 
-// for loop
+// ++++++++++++++++ for loop ++++++++++++++++++++++++++=
 // void main() {
 //   for (int i = 1; i <= 5; i++) {
 //     print("prajakta");
 //   }
 // }
 
-// pryamid
+// pyramid
 
 // void main() {
 //   for (int i = 1; i <= 5; i++) {
@@ -203,13 +203,27 @@
 
 // print the table
 
-import 'dart:io';
+// import 'dart:io';
+
+// void main() {
+//   print("Enter a number:");
+//   int n = int.parse(stdin.readLineSync()!);
+
+//   for (int i = 1; i <= 10; i++) {
+//     print("$n x $i = ${n * i}");
+//   }
+// }
+
+// ++++++++++== for-in loop ++++++++++++++++++++
 
 void main() {
-  print("Enter a number:");
-  int n = int.parse(stdin.readLineSync()!);
+  // var GreeksForGreeks = [, 2, 3, 4, 5];
+  // for (int i in GreeksForGreeks) {
+  //   print(i);
+  // }
 
-  for (int i = 1; i <= 10; i++) {
-    print("$n x $i = ${n * i}");
+  var h1 = {"a", "b", "c"};
+  for (String i in h1) {
+    print(i);
   }
 }
