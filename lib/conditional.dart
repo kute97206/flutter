@@ -1,3 +1,5 @@
+// =====================conditional statement=======================
+
 // void main() {
 //   int a = 10;
 //   if (a > 20) {
@@ -91,28 +93,123 @@
 
 // nested switch
 
+// void main() {
+//   int a = 1;
+//   String b = "Greek";
+//   switch (a) {
+//     case 1:
+//       {
+//         switch (b) {
+//           case 'Greek':
+//             {
+//               print("welcome to Greek");
+//             }
+//         }
+//       }
+//       break;
+//     case 2:
+//       {
+//         print(" the Greek number :2");
+//       }
+//       break;
+//     default:
+//       {
+//         print("this is deafault case");
+//       }
+//   }
+// }
+
+// void main() {
+//   int category = 1;
+//   int dish = 1;
+
+//   switch (category) {
+//     case 1:
+//       print("Veg Menu");
+
+//       switch (dish) {
+//         case 1:
+//           print("Paneer");
+//           break;
+
+//         case 2:
+//           print("Veg Biryani");
+//           break;
+
+//         default:
+//           print("Invalid Veg Dish");
+//       }
+//       break;
+
+//     case 2:
+//       print("Non-Veg Menu");
+
+//       switch (dish) {
+//         case 1:
+//           print("Chicken");
+//           break;
+
+//         case 2:
+//           print("Chicken Biryani");
+//           break;
+
+//         default:
+//           print("Invalid Non-Veg Dish");
+//       }
+//       break;
+
+//     default:
+//       print("Invalid Category");
+//   }
+// }
+
+// else if
+// void main() {
+//   int marks = 75;
+
+//   if (marks >= 90) {
+//     print("Grade A");
+//   } else if (marks >= 70) {
+//     print("Grade B");
+//   } else if (marks >= 50) {
+//     print("Grade C");
+//   } else {
+//     print("Fail");
+//   }
+// }
+
+// ================= loop statement ===============================
+
+// for loop
+// void main() {
+//   for (int i = 1; i <= 5; i++) {
+//     print("prajakta");
+//   }
+// }
+
+// pryamid
+
+// void main() {
+//   for (int i = 1; i <= 5; i++) {
+//     print(" " * (5 - i) + "*" * (2 * i - 1));
+//   }
+// }
+
+// void main() {
+//   for (int i = 5; i >= 1; i--) {
+//     print(" " * (5 - i) + "*" * (2 * i - 1));
+//   }
+// }
+
+// print the table
+
+import 'dart:io';
+
 void main() {
-  int a = 1;
-  String b = "Greek";
-  switch (a) {
-    case 1:
-      {
-        switch (b) {
-          case 'Greek':
-            {
-              print("welcome to Greek");
-            }
-        }
-      }
-      break;
-    case 2:
-      {
-        print(" the Greek number :2");
-      }
-      break;
-    default:
-      {
-        print("this is deafault case");
-      }
+  print("Enter a number:");
+  int n = int.parse(stdin.readLineSync()!);
+
+  for (int i = 1; i <= 10; i++) {
+    print("$n x $i = ${n * i}");
   }
 }
