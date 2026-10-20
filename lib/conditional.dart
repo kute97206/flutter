@@ -216,14 +216,44 @@
 
 // ++++++++++== for-in loop ++++++++++++++++++++
 
-void main() {
-  // var GreeksForGreeks = [, 2, 3, 4, 5];
-  // for (int i in GreeksForGreeks) {
-  //   print(i);
-  // }
+// void main() {
+//   // var GreeksForGreeks = [, 2, 3, 4, 5];
+//   // for (int i in GreeksForGreeks) {
+//   //   print(i);
+//   // }
 
-  var h1 = {"a", "b", "c"};
-  for (String i in h1) {
-    print(i);
+//   var h1 = {"a", "b", "c"};
+//   for (String i in h1) {
+//     print(i);
+//   }
+// }
+
+// +++++++++++++++ for each loop +++++++++++++++++=
+
+// void main() {
+//   var Greek = [1, 2, 3, 4, 5, 6];
+
+//   Greek.forEach((num) => print(num));
+// }
+
+//
+// void main() {
+//   List<dynamic> data = [10, "Hello", 20, "Dart", 30, "flutter", 40];
+
+//   data.forEach((item) {
+//     if (item is int) {
+//       print(item);
+//     }
+//   });
+// }
+
+//+++++++++++++++++ while loop ++++++++++++=
+
+void main() {
+  var Greek = 4;
+  int i = 2;
+  while (i <= Greek) {
+    print("Hello Greek");
+    i++;
   }
 }
