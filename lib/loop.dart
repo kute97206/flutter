@@ -124,13 +124,34 @@
 
 // ?============== label =============
 
+// void main() {
+//   Hello1:
+//   for (int i = 0; i < 3; i++) {
+//     if (i < 2) {
+//       print("you are inside the loop Hello");
+//       break Hello1;
+//     }
+//     print("you are still inside the loop");
+//   }
+// }
+
+// =========== function=============
+
+// int add(int a, int b) {
+//   int result = a + b;
+//   return result;
+// }
+
+// void main() {
+//   var output = add(10, 20);
+//   print(output);
+// }
+
+// function without parameter
+void abc() {
+  print("welcome to abc");
+}
+
 void main() {
-  Hello1:
-  for (int i = 0; i < 3; i++) {
-    if (i < 2) {
-      print("you are inside the loop Hello");
-      break Hello1;
-    }
-    print("you are still inside the loop");
-  }
+  abc();
 }
