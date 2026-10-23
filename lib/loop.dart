@@ -148,10 +148,47 @@
 // }
 
 // function without parameter
-void abc() {
-  print("welcome to abc");
-}
+// void abc() {
+//   print("welcome to abc");
+// }
+
+// void main() {
+//   abc();
+// }
+
+//============== recursion=========================
+
+// void printNumber(int n) {
+//   if (n == 5) {
+//     return;
+//   }
+
+//   print(n);
+//   printNumber(n + 1);
+// }
+
+// void main() {
+//   printNumber(1);
+// }
+
+// ==========2.fibbonacci series==========
 
 void main() {
-  abc();
+  int a = 0;
+  int b = 1;
+
+  for (int i = 1; i <= 10; i++) {
+    print(a);
+    int c = a + b;
+    a = b;
+    b = c;
+  }
 }
+
+// ===========lambda function ===================
+
+// void main() {
+//   var add = (int a, int b) => a + b;
+
+//   print(add(10, 20));
+// }
