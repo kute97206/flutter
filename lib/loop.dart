@@ -173,22 +173,64 @@
 
 // ==========2.fibbonacci series==========
 
-void main() {
-  int a = 0;
-  int b = 1;
+// void main() {
+//   int a = 0;
+//   int b = 1;
 
-  for (int i = 1; i <= 10; i++) {
-    print(a);
-    int c = a + b;
-    a = b;
-    b = c;
-  }
-}
+//   for (int i = 1; i <= 10; i++) {
+//     print(a);
+//     int c = a + b;
+//     a = b;
+//     b = c;
+//   }
+// }
 
-// ===========lambda function ===================
+// // ===========lambda function ===================
 
 // void main() {
 //   var add = (int a, int b) => a + b;
 
 //   print(add(10, 20));
 // }
+
+// =========== types of function =================
+
+// 1. no arguments and no return type
+
+// void display() {
+//   print("Hello Dart");
+// }
+
+// void main() {
+//   display();
+// }
+
+// 2. no arguments and with return type
+// int getNumber() {
+//   return 10;
+// }
+
+// void main() {
+//   int result = getNumber();
+//   print(result);
+// }
+
+// 3. with arguments and no return type
+
+// void add(int a, int b) {
+//   print(a + b);
+// }
+
+// void main() {
+//   add(10, 20);
+// }
+
+// 4.With arguments and with return type
+int multiply(int a, int b) {
+  return a * b;
+}
+
+void main() {
+  int result = multiply(5, 4);
+  print(result);
+}
