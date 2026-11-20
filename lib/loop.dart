@@ -226,11 +226,16 @@
 // }
 
 // 4.With arguments and with return type
-int multiply(int a, int b) {
-  return a * b;
-}
+// int multiply(int a, int b) {
+//   return a * b;
+// }
 
+// void main() {
+//   int result = multiply(5, 4);
+//   print(result);
+// }
 void main() {
-  int result = multiply(5, 4);
-  print(result);
+  for (int i = 1; i <= 10; i++) {
+    print(i);
+  }
 }
